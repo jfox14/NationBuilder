@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="icons/logoico.png"/>
+    <link rel="shortcut icon" type="image/png" href="icons/logoico.png"/>
+    <title>NationBuilder | Jonathan Fox</title>
+</head>
+<body>
+    <nav class="sidebar collapsed" id="sidebar">
+        <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+                <li class="nav-item logo-holder"><img id="logo" alt="logo" src="images/logo-collapsed.svg"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="nav-link-container"><img alt="dashboard" src="icons/icons8-combo-chart-64.png"><span class="nav-link-text">Dashboard</span></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="nav-link-container"><img alt="people" src="icons/icons8-people-64.png"><span class="nav-link-text">People</span></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="nav-link-container"><img alt="website" src="icons/icons8-web-design-64.png"><span class="nav-link-text">Website</span></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="nav-link-container"><img alt="communication" src="icons/icons8-chat-64.png"><span class="nav-link-text">Communication</span></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="nav-link-container"><img alt="finances" src="icons/icons8-credit-card-64.png"><span class="nav-link-text">Finances</span></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="nav-link-container"><img alt="nations" src="icons/icons8-flow-chart-64.png"><span class="nav-link-text">Nations</span></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><span class="nav-link-container"><img alt="settings" src="icons/icons8-tune-64.png"><span class="nav-link-text">Settings</span></span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content-area">
+        <nav class="navbar navbar-expand static-top">
+            <h1>Settings</h1>
+            <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle"><i class="fas fa-bars"></i></button>
+            <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                <div class="input-group" id="search-bar">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><img alt="search" src="/icons/search.svg"></span>
+                    </div>
+                    <input aria-describedby="basic-search" aria-label="Search people" class="form-control" placeholder="Search people" type="text">
+                </div>
+            </form>
+            <div class="navbar-nav ml-auto ml-md-0"><img alt="avatar" class="rounded-circle" src="images/avatar.png"></div>
+        </nav>
+        <nav class="navbar p-0 col-sm-12 col-md-10 col-lg-10 mr-0" id="top-nav">
+            <a class="nav-link" href="#">Your Acount</a> <a class="nav-link" href="#">Contact</a> <a class="nav-link active" href="#">Defaults</a> <a class="nav-link" href="#">Political</a> <a class="nav-link" href="#">Domains</a> <a class="nav-link" href="#">Payment Processor</a> <a class="nav-link" href="#">Apps</a> <a class="nav-link" href="#">Developer</a> <a class="nav-link" href="#">Database</a> <a class="nav-link" href="#">Privacy</a>
+        </nav>
+        <div class="container-fluid">
+            <div>
+                <main role="main">
+                    <nav>
+                        <div class="nav nav-tabs" id="primarynav-tab" role="tablist">
+                            <a aria-controls="nav-home" aria-selected="true" class="nav-item nav-link" data-toggle="tab" href="#nav-primary-basics" id="nav-primary-basics-tab" role="tab">Basics</a> <a aria-controls="nav-profile" aria-selected="false" class="nav-item nav-link active" data-toggle="tab" href="#nav-primary-customfields" id="nav-primary-customfields-tab" role="tab">Custom Fields</a>
+                            <a aria-controls="nav-profile" aria-selected="false" class="nav-item nav-link" data-toggle="tab" href="#nav-primary-socialcapital" id="nav-primary-socialcapital-tab" role="tab">Social Capital</a> <a aria-controls="nav-profile" aria-selected="false" class="nav-item nav-link" data-toggle="tab" href="#nav-primary-financetypes" id="nav-primary-financetypes-tab" role="tab">Finance Types</a>
+                            <a aria-controls="nav-profile" aria-selected="false" class="nav-item nav-link" data-toggle="tab" href="#nav-primary-dashboard" id="nav-primary-dashboard-tab" role="tab">Dashboards</a> <a aria-controls="nav-profile" aria-selected="false" class="nav-item nav-link" data-toggle="tab" href="#nav-primary-permissionsets" id="nav-primary-permissionsets-tab" role="tab">Permissions sets</a>
+                            <a aria-controls="nav-profile" aria-selected="false" class="nav-item nav-link" data-toggle="tab" href="#nav-primary-unsubscribe" id="nav-primary-unsubscribe-tab" role="tab">Unsubscribe</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="primarynav-tabContent">
+                        <div aria-labelledby="nav-home-tab" class="tab-pane fade" id="nav-primary-basics" role="tabpanel">
+                        </div>
+                        <div aria-labelledby="nav-profile-tab" class="tab-pane fade show active" id="nav-primary-customfields" role="tabpanel">
+                            <nav class="secondary-nav">
+                                <div class="nav nav-tabs" id="secondarynav-tab" role="tablist">
+                                    <a aria-controls="nav-home" aria-selected="true" class="nav-item nav-link active" data-toggle="tab" href="#nav-secodary-people" id="nav-secondary-people-tab" role="tab">People</a> <a aria-controls="nav-profile" aria-selected="false" class="nav-item nav-link" data-toggle="tab" href="#nav-secodary-donations" id="nav-secondary-donations-tab" role="tab">Donations</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="secondarynav-tabContent">
+                                <div aria-labelledby="nav-home-tab" class="tab-pane fade show active" id="nav-secodary-people" role="tabpanel">
+                                    <h2>Sharing custom field settings</h2>
+                                    <h3>You are sharing custom field settings. All custom fields you create will automatically become available to your networked nations.</h3>
+                                    <div id="react-app">
+                                    </div>
+                                </div>
+                                <div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-secodary-donations" role="tabpanel">
+                                </div>
+                            </div>
+                        </div>
+                        <div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-primary-socialcapital" role="tabpanel">
+                        </div>
+                        <div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-primary-financetypes" role="tabpanel">
+                        </div>
+                        <div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-primary-dashboard" role="tabpanel">
+                        </div>
+                        <div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-primary-permissionsets" role="tabpanel">
+                        </div>
+                        <div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-primary-unsubscribe" role="tabpanel">
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="scripts/customFields.js" type="text/babel"></script>
+    <script>
+        $("#sidebar").mouseover(function() {
+            $("#sidebar").removeClass("collapsed");
+            $('#logo').attr("src", "images/logo.svg");
+        });
+        $("#sidebar").mouseout(function() {
+            $("#sidebar").addClass("collapsed");
+            $('#logo').attr("src", "images/logo-collapsed.svg");
+        });
+    </script>
+</body>
+</html>
