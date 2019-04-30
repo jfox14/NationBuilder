@@ -48,7 +48,7 @@ function CustomFields(props) {
           value={props.type.value}
           onChange={props.type.onChange}
         >
-          <option key="-1">Select option</option>
+          <option key="Select option">Select option</option>
           <option key="Text">Text</option>
           <option key="Checkbox">Checkbox</option>
           <option key="Multiple choice">Multiple choice</option>
