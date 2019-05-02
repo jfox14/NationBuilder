@@ -1,9 +1,7 @@
-# NationBuilder Coding Challenge
-Coding challenge for NationBuilder
-
+# React Strangler Pattern
+Example of injecting react into an existing vanilla javascript app. 
+Cool thought experiment for a strangler pattern.
 Styled by BootStrap 4
-
-Javascript functionality injected with React
 
 
 hosted version: 
